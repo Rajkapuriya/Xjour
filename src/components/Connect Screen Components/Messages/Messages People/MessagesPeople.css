@@ -1,0 +1,15 @@
+.messagesPeople {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  margin-top: 16px;
+}
+
+.messagesPeople__cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: end;
+}

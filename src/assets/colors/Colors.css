@@ -1,0 +1,21 @@
+:root {
+  --passworderror: #ee378a;
+  --emailError: #ecba02;
+  --primaryColor: #22b0ea;
+  --primaryColorHover: hsl(197, 83%, 48%);
+  --secondaryColor: #c6ccc9;
+  --appleColor: #777777;
+  --googleColor: #fcfcfd;
+  --inactiveClass: #a6a7a9;
+  --userChatBg: #e2f7fe;
+  --whiteColor: #ffffff;
+  --appBgInside: #f8f8f8;
+  --appBgOutside: #e4e4e4;
+  --greyColor: #808080;
+  --blackColor: #181818;
+  /* --fontColor: #5a6464; */
+  --fontColor: #707070;
+  --secondaryButton: #707070;
+
+  --primaryDisabledColor: hsl(197, 74%, 80%);
+}

@@ -1,0 +1,25 @@
+.delete-annotation-item-modal {
+    padding: 12px;
+  }
+  
+  .delete-annotation-item-modal__confirmation-text {
+    margin: 0;
+    font-size: 16px;
+    color: var(--fontColor);
+  }
+  
+  .delete-annotation-item-modal__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .delete-annotation-item-modal__action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 16px;
+    width: auto;
+  }
+  

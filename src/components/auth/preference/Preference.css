@@ -1,0 +1,82 @@
+.preference {
+  display: flex;
+  flex-direction: column;
+  max-width: 710px;
+  height: 100%;
+  width: 100%;
+}
+
+.preference__updating-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.preference__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 48px 40px 24px 40px;
+  height: 100%;
+  flex: 1;
+  row-gap: 20px;
+}
+
+.preference__destinations {
+}
+
+.preference__destinations-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 140px);
+  justify-content: space-evenly;
+  column-gap: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  row-gap: 20px;
+  padding-top: 20px;
+}
+
+.preference__activities-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 140px);
+  justify-content: space-evenly;
+  column-gap: 20px;
+  max-height: 300px;
+  overflow-y: auto;
+  row-gap: 20px;
+  padding-top: 20px;
+}
+
+.preference__button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.preference__button {
+  display: grid;
+  width: 230px;
+}
+
+.preference__button svg {
+  fill: white;
+}
+
+@media screen and (max-width: 560px) {
+  .preference__destinations-buttons {
+    max-height: 200px;
+  }
+  .preference__activities-buttons {
+    max-height: 200px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .preference__destinations-buttons {
+    max-height: 180px;
+  }
+  .preference__activities-buttons {
+    max-height: 180px;
+  }
+}

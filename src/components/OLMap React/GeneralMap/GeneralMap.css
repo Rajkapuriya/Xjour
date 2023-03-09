@@ -1,0 +1,10 @@
+.general-map {
+  height: 100%;
+}
+
+.general-map .ol-zoom {
+  left: unset;
+  top: unset;
+  right: 8px;
+  bottom: 16px;
+}

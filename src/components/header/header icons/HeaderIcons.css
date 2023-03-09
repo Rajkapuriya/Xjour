@@ -1,0 +1,19 @@
+/* .headerIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.MuiSvgIcon-root{
+    font-size: 16px !important;
+}
+
+.headerIcon__text{
+    font-size: 13px;
+}
+
+.headerIcon--active > .MuiSvgIcon-root{
+    color: cyan !important;
+    font-size: xx-large !important;
+} */

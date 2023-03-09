@@ -1,0 +1,39 @@
+.mainBody {
+  display: flex;
+  justify-content: center;
+  background-color: var(--whiteColor);
+  height: 100%;
+  z-index: 1;
+  width: calc(100vw - 570px);
+  max-width: 1200px;
+}
+
+.headerSidebar__body {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1800px) {
+  .mainBody {
+    width: calc(100vw - 720px);
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .mainBody {
+    width: calc(100vw - 920px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainBody {
+    flex: 1;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .miniSidebar {
+    display: none;
+  }
+}

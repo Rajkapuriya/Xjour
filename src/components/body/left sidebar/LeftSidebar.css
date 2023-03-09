@@ -1,0 +1,103 @@
+.leftSidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--whiteColor);
+  height: 100%;
+  min-width: 300px;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.leftSidebar__sections-container {
+  display: grid;
+  overflow-y: scroll;
+}
+
+.leftSidebar__viewAble {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--whiteColor);
+  height: 100%;
+  flex: 0.2;
+  /* position: relative; */
+  z-index: 1;
+  /* position: sticky; */
+  top: 0;
+  left: 0;
+}
+
+.destinationSidebar {
+  transition: 1s ease-in-out;
+}
+
+.MuiBox-root css-w7qxv > nav > a {
+  text-decoration: none;
+  color: inherit;
+}
+.css-w7qxv > nav > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scrollVertical__buttons {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.scrollVertical__buttons > svg {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 4px;
+}
+/* .sideBarArrows {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  z-index: 999;
+}
+.sideBarArrows > svg {
+  border: 1px solid grey;
+  border-radius: 50%;
+  padding: 16px;
+} */
+
+.sideBarClose {
+  display: none;
+}
+.sideBarClose > svg {
+  background-color: var(--primaryColor);
+  color: var(--whiteColor);
+  border-radius: 50%;
+  padding: 4px;
+}
+
+@media screen and (min-width: 1800px) {
+  .leftSidebar {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .leftSidebar {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .leftSidebar {
+    display: none;
+  }
+  .sideBarClose {
+    display: flex;
+    justify-content: center;
+  }
+}

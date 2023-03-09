@@ -1,0 +1,82 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  border-radius: 50px;
+  height: auto;
+  width: auto;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button--outlined {
+  outline: 2px solid var(--primaryColor);
+  color: var(--primaryColor);
+  background-color: transparent;
+}
+.button--outlined:focus {
+  outline: 4px solid var(--primaryColor);
+}
+.button--outlined-disabled {
+  color: #78d0f3;
+  outline: 1px solid #78d0f3;
+  pointer-events: none;
+}
+
+.button--filled {
+  outline: 2px solid var(--primaryColor);
+  background-color: var(--primaryColor);
+  color: white;
+}
+.button--filled:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--primaryColor);
+}
+.button--filled-disabled {
+  background-color: #78d0f3;
+  outline: 1px solid #78d0f3;
+  pointer-events: none;
+}
+
+.button--logout {
+  outline: 2px solid red;
+  background-color: red;
+  color: white;
+}
+.button--logout:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px red;
+}
+.button--logout-disabled {
+  background-color: rgb(255, 72, 72);
+  outline: 1px solid rgb(255, 72, 72);
+  pointer-events: none;
+}
+
+.button--font-500 {
+  font-weight: 500;
+}
+.button--font-600 {
+  font-weight: 600;
+}
+.button--font-700 {
+  font-weight: 700;
+}
+
+.button--font-small {
+  font-size: 14px;
+  padding: 8px 36px;
+}
+.button--font-medium {
+  font-size: 14px;
+  padding: 12px 36px;
+}
+.button--font-large {
+  font-size: 24px;
+  padding: 20px 40px;
+}
+
+.button__icon {
+  width: 22px;
+  height: 22px;
+}

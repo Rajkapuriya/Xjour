@@ -1,0 +1,78 @@
+.users-list {
+  /* display: flex;
+      flex: 1;
+      border: 1px solid rgb(3, 154, 255);
+      text-align: center;
+      align-items: center;
+      justify-content: space-evenly; */
+}
+
+.users-list__infinite-scroll {
+  background-color: #f8f8f8;
+  display: grid;
+  row-gap: 8px;
+}
+.users-list__infinite-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.users-list__infinite-scroll::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+}
+
+.users-list__scroll-more-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.users-list__shimmer {
+  border-radius: 6px;
+}
+
+.users-list__container {
+  display: flex;
+  flex: 1;
+  /* border: 1px solid rgb(3, 154, 255); */
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f8f8f8;
+  padding: 4px;
+  height: max(65px, 6vh);
+}
+
+.users-list__container:first-of-type {
+  padding-top: 12px;
+}
+.users-list__container:last-of-type {
+  padding-bottom: 12px;
+}
+
+.users-list__avatar {
+  flex: 0.2;
+}
+
+.users-list_text {
+  flex: 0.5;
+  display: flex;
+}
+
+.users-list__flag {
+  flex: 0.2;
+}
+
+.users-list__flag-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+  width: 24px;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+.users-list__flagUser {
+  width: 24px;
+  object-fit: contain;
+}

@@ -1,0 +1,11 @@
+.connectDiscover{
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+}
+
+.connectDiscover__heading{
+    margin-top: 12px;
+    margin-left: 16px;
+    
+}

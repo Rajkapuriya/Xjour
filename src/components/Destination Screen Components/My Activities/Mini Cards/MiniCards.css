@@ -1,0 +1,123 @@
+.miniCards {
+  display: flex;
+  /* flex: 1; */
+  height: 100px;
+  width: 195px;
+  margin: 18px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  /* justify-content: space-between; */
+}
+
+.miniCards__detail {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin: 6px;
+  /* margin: 20px; */
+}
+
+.miniCardsDetail__dataLeft {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.cityMini {
+  display: flex;
+  color: #22b0ea ;
+  font-size: 10px ;
+  font-weight: 500 ;
+  margin-right: 2px;
+}
+.country {
+  color: #22b0ea !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  margin-left: 2px;
+}
+.miniCardDetails__dataLeftTop {
+  margin-bottom: 12px;
+  flex: 0.5;
+}
+
+.miniCardDetails__dataLeftBottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 0.5;
+}
+
+.miniCards__image {
+  flex: 0.5;
+  position: relative;
+}
+
+.cardImage {
+  position: relative;
+  width: 160px;
+  height: 100%;
+  object-fit: cover;
+  border-end-end-radius: 12px;
+  border-start-end-radius: 12px;
+}
+
+.moreOption{
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* padding: 4px; */
+  background-color: grey;
+border-end-start-radius: 8px;
+border-top-right-radius: 8px;
+cursor: pointer;
+
+}
+
+.moreOption > div {
+  display: flex;
+  justify-content: center;
+
+}
+.moreOption > div > svg {
+  display: flex;
+  color: white;
+  font-size: medium;
+  margin: 4px;
+
+}
+
+.moreOptionOptions{
+/* height: 100%; */
+width: 100%;
+}
+
+.moreOptionOptions__svg {
+  display: flex;
+  flex-direction: column;
+  height: 100px ;
+ 
+}
+
+.moreOptionOptions__svg > *{
+  color: white !important;
+  /* font-size: 11px; */
+ 
+}
+
+.moreOptionOptions__svg > svg {
+  align-self: flex-end;
+  font-size: medium;
+  margin: 4px;
+}
+.moreOptionOptions__svg > p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 11px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 6px;
+  margin-right: 10px;
+}

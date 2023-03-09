@@ -1,0 +1,16 @@
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  display: none;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+
+.overlay .loading-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

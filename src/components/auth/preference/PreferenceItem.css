@@ -1,0 +1,17 @@
+.preference-item {
+  all: unset;
+  text-align: center;
+  width: 120px;
+  padding: 6px 0;
+  font-size: 12px;
+  font-weight: 400;
+  border-radius: 28px;
+  border: 1px solid var(--secondaryButton);
+  background-color: transparent;
+  color: var(--secondaryButton);
+  cursor: pointer;
+}
+.preference-item--active {
+  background-color: var(--secondaryButton);
+  color: white;
+}

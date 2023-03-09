@@ -1,0 +1,12 @@
+.destinations-page {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+}
+
+.destinations__infinite-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.destinations__infinite-scroll::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+}

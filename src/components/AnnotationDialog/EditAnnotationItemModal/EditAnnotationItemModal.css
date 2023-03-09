@@ -1,0 +1,25 @@
+.edit-Annotation-item-modal {
+    padding: 12px;
+  }
+  
+  .edit-Annotation-item-modal__form {
+    display: grid;
+    row-gap: 16px;
+  }
+  
+  .edit-Annotation-item-modal__loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .edit-Annotation-item-modal__action-buttons {
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    width: auto;
+    justify-self: flex-end;
+  }
+  

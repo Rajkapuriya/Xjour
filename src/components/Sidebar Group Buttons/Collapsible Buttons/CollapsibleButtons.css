@@ -1,0 +1,27 @@
+.addMenuOptions {
+  /* display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  z-index: 99; */
+  /* position: relative; */
+}
+
+.addMenuOptions__component {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  overflow-x: auto;
+}
+
+.addMediaDiv {
+  /* width: 100%; */
+}
+/* 
+.addMenuOptions__svgIcon > svg {
+  position: relative;
+  bottom: 10px;
+} */
+
+.addMenuOptions__svgIcon {
+  cursor: pointer;
+}

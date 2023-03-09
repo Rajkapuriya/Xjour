@@ -1,0 +1,18 @@
+.usersComment{
+    display: flex;
+    /* flex-direction: column; */
+    width: 85%;
+    margin: auto;
+    align-items: center;
+}
+
+.imageSection{
+
+}
+
+.textSection{
+    margin-left: 10px;
+}
+.textSection > p {
+    font-size: 12px;
+}

@@ -1,0 +1,83 @@
+.add-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 16px 20px 8px 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.1s linear;
+  z-index: 100;
+}
+
+.add-overlay--hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.add-overlay--visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.add-overlay__header {
+  padding-bottom: 20px;
+}
+
+.add-overlay__back-icon {
+  background-color: white;
+  padding: 6px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.add-overlay__options {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.add-media__option,
+.add-destination__option,
+.add-connection__option,
+.add-activity__option {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  cursor: pointer;
+}
+
+.add-media__icon,
+.add-destination__icon,
+.add-connection__icon,
+.add-activity__icon {
+  padding: 6px;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.add-media__option-text,
+.add-destination__option-text,
+.add-connection__option-text,
+.add-activity__option-text {
+  color: white;
+  font-weight: 400;
+}
+
+.add-overlay__footer {
+  padding-top: 20px;
+}
+
+.add-overlay__close-button {
+  border: 1px solid var(--inactiveClass);
+  padding: 6px;
+  border: 1px solid var(--primaryColor);
+  border-radius: 24px;
+  display: flex;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.add-overlay__close-button path {
+  fill: var(--primaryColor);
+}

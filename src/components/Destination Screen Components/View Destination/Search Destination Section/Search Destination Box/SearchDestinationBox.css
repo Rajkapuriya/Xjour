@@ -1,0 +1,78 @@
+.searchDestinationBox {
+  display: flex;
+  justify-content: center;
+  flex: 0.4;
+}
+
+.topSearch__left {
+  flex: 0.5;
+  /* width: 100%; */
+  /* max-width: 340px; */
+}
+
+.inputDivBox {
+  min-width: 460px;
+  height: 100%;
+  width: 100%;
+  /* flex: 0.5; */
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+.upperSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputDivBox
+  > .upperSection
+  > .css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+  > .css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
+  background-color: inherit !important;
+}
+.upperSection > .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 90%;
+}
+.upperSection > svg {
+  background-color: #22b0ea;
+  color: white;
+  padding: 4px;
+  font-size: large;
+  border-radius: 4px;
+}
+
+.lowerSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+.inputDivBox
+  > .lowerSection
+  > .css-1u3bzj6-MuiFormControl-root-MuiTextField-root
+  > .css-cio0x1-MuiInputBase-root-MuiFilledInput-root {
+  background-color: inherit !important;
+}
+.lowerSection > .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  flex: 0.45;
+}
+.lowerSection > svg {
+  background-color: rgb(157, 252, 162);
+  color: white;
+  padding: 4px;
+  font-size: large;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 400px) {
+  .inputDivBox {
+    min-width: 90vw;
+  }
+
+  .lowerSection > svg {
+    display: none;
+  }
+}

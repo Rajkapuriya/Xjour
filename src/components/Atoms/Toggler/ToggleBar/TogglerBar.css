@@ -1,0 +1,25 @@
+.toggle-bar {
+  display: flex;
+  column-gap: 12px;
+  background-color: white;
+  border-radius: 100px;
+  border: 1px solid #b1b1b1;
+}
+
+.toggle-bar--left-active > *:nth-child(1) {
+  background-color: var(--primaryColor);
+  color: white;
+}
+.toggle-bar--left-active > *:nth-child(2) {
+  background-color: white;
+  color: var(--fontColor);
+}
+
+.toggle-bar--right-active > *:nth-child(1) {
+  background-color: white;
+  color: var(--fontColor);
+}
+.toggle-bar--right-active > *:nth-child(2) {
+  background-color: var(--primaryColor);
+  color: white;
+}

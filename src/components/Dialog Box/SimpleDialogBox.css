@@ -1,0 +1,65 @@
+.dialogList {
+  display: flex;
+  justify-content: center;
+}
+
+.dialogList > .css-bshv44-MuiButtonBase-root-MuiListItem-root {
+  width: auto !important;
+}
+
+.dialogList
+  > .css-bshv44-MuiButtonBase-root-MuiListItem-root
+  > .css-1e9lk82-MuiListItemAvatar-root {
+  min-width: 40px !important  ;
+}
+.dialogList
+  > .css-bshv44-MuiButtonBase-root-MuiListItem-root
+  .css-tlelie-MuiListItemText-root {
+  margin-left: 6px;
+}
+
+.optionButtons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+}
+
+/* .optionButtons:hover{
+ 
+} */
+
+.delete__button {
+  opacity: 0.5;
+}
+.delete__button:hover{
+  opacity: 1;
+}
+.close__button {
+  opacity: 0.5;
+}
+.close__button:hover{
+  opacity: 1;
+}
+
+.delete__button > .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  border: 1px solid red;
+  width: 100%;
+  border-radius: 50% !important;
+  background-color: red !important;
+}
+.close__button > .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  border: 1px solid #22b0ea;
+  width: 100%;
+  border-radius: 50% !important;
+  background-color: #22b0ea !important;
+}
+
+.delete__button > button > svg,
+h4 {
+  color: white !important;
+}
+.close__button > button > svg,
+h4 {
+  color: white !important;
+}

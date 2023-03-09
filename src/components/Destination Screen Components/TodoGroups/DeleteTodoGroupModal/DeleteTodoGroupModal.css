@@ -1,0 +1,24 @@
+.delete-todo-group-modal {
+  padding: 12px;
+}
+
+.delete-todo-group-modal__confirmation-text {
+  margin: 0;
+  font-size: 16px;
+  color: var(--fontColor);
+}
+
+.delete-todo-group-modal__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.delete-todo-group-modal__action-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 16px;
+  width: auto;
+}

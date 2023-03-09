@@ -1,0 +1,24 @@
+.filterBy {
+  display: flex;
+  /* flex-direction: column; */
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 24px;
+
+}
+
+.filterBy__body {
+  display: flex;
+
+  padding: 2px 6px;
+  align-items: center;
+}
+
+.filterBy__bodyInside{
+  display: flex;
+  flex-direction: column;
+  padding: 8px 10px 10px ;
+}
+.filterBy__bodyInside > h5 {
+  margin: 4px 0;
+}

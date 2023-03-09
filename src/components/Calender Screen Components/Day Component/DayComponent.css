@@ -1,0 +1,59 @@
+.dayComponent {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.dayComponent > h3 {
+  align-self: center;
+  margin: 10px 0;
+}
+
+.dayComponent__hours {
+  display: flex;
+  border: 1px solid grey;
+
+  align-items: center;
+}
+.dayComponent__hour {
+  /* flex: 0.2; */
+  /* display: flex;
+  flex-direction: column; */
+  width: 98%;
+
+  margin: auto;
+}
+.dayComponent__hour > h5 {
+  border: 1px solid grey;
+  padding: 8px;
+}
+
+.dayComponent__event {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 80%;
+  background-color: #22b0ea;
+  margin-left: auto;
+}
+.eventTime {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+.eventTime > p {
+  font-weight: 600;
+}
+.eventDetail {
+  margin-top: 2px;
+  margin-left: 6px;
+}
+.dayComponent__event > div > * {
+  color: white;
+}
+
+.css-pzc27e-MuiToolbar-root.Toolbar-toolbar > div > button {
+  width: auto !important  ;
+}

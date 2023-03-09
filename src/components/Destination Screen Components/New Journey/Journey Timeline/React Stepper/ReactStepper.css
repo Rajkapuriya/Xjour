@@ -1,0 +1,13 @@
+.reactStepper {
+}
+
+.css-ascpo7-MuiStepLabel-root {
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #22b0ea !important;
+}
+.css-qivjh0-MuiStepLabel-label.Mui-active {
+  color: #22b0ea !important;
+}

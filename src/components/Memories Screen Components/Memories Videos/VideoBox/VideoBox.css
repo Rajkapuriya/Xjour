@@ -1,0 +1,43 @@
+.videoBox {
+  display: flex;
+  flex-direction: column;
+}
+.videoBox__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.videoBox__bodyInside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+}
+.videoBox__bodyInside > .css-i4bv87-MuiSvgIcon-root {
+  color: white !important;
+}
+.videoBox__image {
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+
+.videoBox__image:hover {
+  transform: scale(1.06);
+}
+
+.playArrow {
+  display: flex;
+  position: absolute;
+  width: 120px !important;
+  height: 50px !important;
+  color: white !important;
+}

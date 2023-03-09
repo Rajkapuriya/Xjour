@@ -1,0 +1,119 @@
+.authLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 2;
+  padding: 48px 0;
+}
+
+.login__form {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+}
+
+.login__inputs {
+  display: grid;
+  row-gap: 34px;
+  width: 100%;
+  justify-items: center;
+}
+
+.login__input-field {
+  display: grid;
+  width: clamp(250px, 70%, 380px);
+}
+
+.login__input-field-label {
+  font-size: 14px;
+  font-weight: bolder;
+  color: var(--fontColor);
+  padding-left: 10px;
+}
+
+.inputDiv {
+  margin: 0 !important;
+}
+
+.login__input-password-field-container {
+  position: relative;
+  display: grid;
+}
+
+.login__password-visiblity-icon {
+  position: absolute;
+  top: 25%;
+  right: 24px;
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.login__forget-password-text {
+  color: var(--primaryColor);
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.login__button-container {
+  display: grid;
+  grid-template-columns: 230px;
+  margin-top: 40px;
+}
+
+.login__terms-and-conditions-text {
+  color: var(--primaryColor);
+  font-size: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.containerBottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+
+  /* margin-top: -30px; */
+}
+
+.containerBottom > h5 {
+  color: #777777;
+  margin-bottom: 10px;
+}
+
+.containerBottom__buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.googleButton {
+  background-color: var(--googleColor) !important;
+  color: var(--appleColor) !important;
+  font-weight: 400;
+  border: 1px solid var(--googleColor) !important;
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.appleButton {
+  background-color: var(--appleColor) !important;
+  color: var(--white-color) !important;
+  border: 1px solid var(--appleColor) !important;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  font-weight: 400;
+}
+
+.socialIcon {
+}

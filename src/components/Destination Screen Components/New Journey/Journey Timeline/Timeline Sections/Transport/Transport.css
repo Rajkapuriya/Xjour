@@ -1,0 +1,34 @@
+.transport{
+    display: flex;
+    background-color: #f8f8f8;
+    flex: 1;
+    justify-content: center;
+}
+
+.transport__barSection{
+    flex: 0.5;
+    /* border: 1px solid red; */
+
+}
+
+.transport__detailSection{
+    flex: 0.4;
+}
+
+.barSection__header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    /* width: 92%; */
+    margin: auto;
+    padding: 12px;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+/* .transport__mapSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} */

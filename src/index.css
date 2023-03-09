@@ -1,0 +1,47 @@
+/* @import "Nunito-Bold.ttf"  */
+
+@font-face {
+  font-family: "Raleway";
+  font-weight: 400;
+  src: local("./assets/fonts/static"),
+    url("./assets/fonts/static/Raleway-Regular.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "Raleway";
+  font-weight: 500;
+  src: local("./assets/fonts/static"),
+    url("./assets/fonts/static/Raleway-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway";
+  font-weight: 600;
+  src: local("./assets/fonts/static"),
+    url("./assets/fonts/static/Raleway-SemiBold.ttf") format("truetype");
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway" !important;
+}
+p {
+  color: #8a8a8a;
+}
+.MuiSvgIcon-root {
+  color: #8a8a8a;
+}
+input {
+  /* font-family: "Raleway" !important; */
+}
+body {
+  background-color: #e4e4e4;
+  margin: 0;
+  font-family: "Raleway" !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: "Raleway" !important; */
+}

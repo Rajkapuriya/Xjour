@@ -1,0 +1,48 @@
+.headerSidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--appBgOutside);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-toggler {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--whiteColor);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-toggler > a {
+  text-decoration: none;
+}
+.headerSidebar__options {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerSidebar__options > svg {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .headerSidebar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .nav-toggler {
+    display: none;
+  }
+  /* .miniSidebar {
+    display: none;
+  } */
+}

@@ -1,0 +1,160 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: scroll;
+  height: calc(100vh - 74px);
+}
+
+.profile__heading {
+  font-size: 24px;
+  color: var(--fontColor);
+  padding: 16px 20px 80px 20px;
+  background-color: #f8f8f8;
+}
+
+.profile__main-container {
+  padding: 0 40px;
+}
+
+.profile__profile-image-container {
+  margin-bottom: 40px;
+}
+
+.profile__profile-image-upload {
+  display: flex;
+  justify-content: center;
+  margin-top: -70px;
+  cursor: pointer;
+}
+
+.profile__profile-details-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+}
+
+.profile__profile-general-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.profile__profile-detail-field {
+  display: grid;
+  grid-template-columns: 100px auto;
+  min-height: 36px;
+}
+
+.profile__profile-detail-field-label {
+  margin: 0;
+  font-weight: 700;
+}
+
+.profile__profile-detail-field-value {
+  display: flex;
+  column-gap: 12px;
+}
+
+.profile__profile-detail-field-input {
+  display: flex;
+  width: auto;
+  margin-right: 6px !important;
+  border: 1px solid var(--appBgOutside);
+  border-radius: 4px;
+  padding: 4px 8px;
+  justify-content: space-between;
+}
+
+.profile__profile-detail-field-input > input {
+  width: 90px;
+  max-width: 180px;
+  margin-bottom: inherit !important;
+}
+
+.profile__profile-detail-field-input-value {
+  margin: 0;
+}
+
+.profile__mainContainer {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProfileData__fieldInputs {
+  display: flex;
+  margin-left: 10px;
+  width: 250px;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.ProfileData__fieldInputs > input {
+  height: 25px;
+  /* background-color: transparent; */
+  /* background-color: aqua; */
+  /* width: 100px; */
+  color: #777777;
+  /* margin-bottom: 15px; */
+  font-size: medium;
+  font-weight: 400;
+  border: none;
+  /* min-width: 30%; */
+  border-radius: 8px;
+  outline-width: none;
+  outline: none;
+  padding-left: 0px;
+  padding-right: 6px;
+  margin-bottom: 0px;
+  /* border: 1px solid rgb(114, 198, 219); */
+}
+
+.birthdayValue {
+  display: flex;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.countryFlagSvg {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
+.profile__preferences {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 20px 0;
+}
+
+.profile__preference-destinations-message,
+.profile__preference-activities-message {
+  font-weight: bolder;
+  color: var(--fontColor);
+  font-size: 14px;
+  margin: 0;
+}
+
+.profile__footer {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 20px;
+  justify-content: space-evenly;
+  padding: 28px 40px 40px 40px;
+  max-height: 44px;
+}
+
+.profileScreenLoader {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 16px;
+  justify-content: center;
+  align-items: center;
+}

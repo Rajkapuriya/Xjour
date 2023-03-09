@@ -1,0 +1,14 @@
+.chevron svg {
+  color: #a6a7a9;
+  border: 1px solid grey;
+  border-radius: 24px;
+  padding: 2px;
+  margin-right: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.chevron svg:hover {
+  background-color: var(--fontColor);
+  color: white;
+}

@@ -1,0 +1,80 @@
+.groupLists {
+  display: flex;
+  flex-direction: column;
+  max-height: 320px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.groupLists__conatiner {
+  display: flex;
+  flex: 1;
+  /* border: 1px solid rgb(3, 154, 255); */
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #f8f8f8;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.groupLists__avatar {
+  flex: 0.2;
+}
+
+.groupLists__avatarUser {
+  height: 42px;
+  width: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.groupLists__text {
+  flex: 0.5;
+  display: flex;
+}
+
+.groupLists__text p {
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+.groupLists__flag {
+  flex: 0.2;
+}
+
+.groupLists__flagUser {
+  width: 24px;
+  object-fit: contain;
+}
+
+.groupLists__msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 40px; */
+}
+
+.list__flagLoader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group-lists__flag-placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+  width: 24px;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+.groupLists {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.groupLists::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

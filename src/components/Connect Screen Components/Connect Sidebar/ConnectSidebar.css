@@ -1,0 +1,27 @@
+.destinationSidebar {
+  
+}
+
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root {
+  margin-left: 18px !important;
+}
+
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+  background-color: #ffffff !important;
+}
+.css-cvhtoe-MuiButtonBase-root-MuiListItemButton-root.Mui-selected
+  > *
+  > .css-10hburv-MuiTypography-root {
+  font-weight: 600 !important;
+}
+.css-h4y409-MuiList-root > a {
+  text-decoration: none;
+}
+
+.css-10hburv-MuiTypography-root {
+  color: #5a6464;
+}
+
+.sidebarTitle {
+  margin-left: 10px;
+}

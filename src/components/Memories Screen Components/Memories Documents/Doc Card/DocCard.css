@@ -1,0 +1,55 @@
+.docCard {
+  display: flex;
+  /* flex: 1; */
+  height: 80px;
+  width: 240px;
+  margin: 18px;
+  min-width: 240px;
+  max-width: 300px;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  position: relative;
+  cursor: pointer;
+}
+
+.docCard__container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.docCard__containerName {
+  flex: 0.8 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.docCard__containerName > p {
+  margin-left: 8px;
+}
+.docCard__DeleteButton {
+  flex: 0.2;
+}
+
+/* .docCard__closeButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  opacity: 0.1;
+  border-radius: 50%;
+  background-color: #ee378a;
+  padding: 2px;
+}
+.docCard__closeButton > svg {
+  color: white;
+}
+
+.docCard__closeButton:hover {
+  opacity: 1;
+} */

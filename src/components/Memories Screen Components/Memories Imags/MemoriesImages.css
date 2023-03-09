@@ -1,0 +1,79 @@
+.memoriesImages {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 100vh;
+  flex: 1;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.memoriesImages__map {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 100vh;
+  flex: 1;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.memoriesImages__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.memoriesImages > h3 {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+.memoriesImages__images {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.uploadImageBox {
+  display: flex;
+  width: 126px !important;
+  height: 115px !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  outline: 2px solid #22b0ea;
+  cursor: pointer;
+}
+
+.uploadImageBox > * > .MuiSvgIcon-root {
+  width: 4em !important;
+  height: 4em !important;
+  font-size: small !important;
+  color: #22b0ea !important;
+}
+
+.memoriesImages__latest {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.memoriesImages__latest > h5 {
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}
+
+.ReactCrop__image {
+  width: 90%;
+  /* height: 90%; */
+  margin: auto;
+  object-fit: contain;
+}
+
+.noImagesText {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}

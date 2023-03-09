@@ -1,0 +1,44 @@
+.memoriesCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.memoriesCards__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.memoriesCards__image {
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.videoBox__bodyInside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+  position: relative;
+}
+.videoBox__bodyInside > .css-i4bv87-MuiSvgIcon-root {
+  color: white !important;
+}
+
+.playArrow {
+  display: flex;
+  position: absolute;
+  width: 120px !important;
+  height: 50px !important;
+  color: white !important;
+}
+
+.videoBox__image {
+  display: flex;
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+  position: relative;
+}

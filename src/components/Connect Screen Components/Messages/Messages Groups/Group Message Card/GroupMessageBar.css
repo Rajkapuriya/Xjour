@@ -1,0 +1,62 @@
+.groupMessageBar {
+  display: flex;
+  /* margin: 20px 0; */
+  justify-content: center;
+  flex: 1;
+}
+
+.groupMessageBar__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+  margin: 10px 0;
+  flex: 0.9;
+  /* height: 110px !important; */
+}
+.groupMessageBar__containerAvatar {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+  margin-right: 80px;
+  margin-bottom: -20px;
+}
+
+.groupMessageBar__containerAvatar > .css-1wlk0hk-MuiAvatar-root {
+  position: relative;
+  z-index: 1 !important;
+  margin-left: -25px;
+}
+
+.groupMessageBar__containerBody {
+  display: flex;
+  flex: 1;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  justify-content: space-between;
+}
+
+.groupMessageBar__containerBodyLeft {
+  display: flex;
+  flex: 0.15;
+
+ 
+}
+.groupMessageBar__containerBodyLeft > img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 12px;
+  border-end-start-radius: 12px;
+}
+
+.groupMessageBar__containerBodyRight {
+  display: flex;
+  flex-direction: column;
+  flex: 0.85;
+  padding: 12px;
+}
+
+.groupMessageBar__containerBodyRight > h5 {
+    margin-bottom: 6px;
+}

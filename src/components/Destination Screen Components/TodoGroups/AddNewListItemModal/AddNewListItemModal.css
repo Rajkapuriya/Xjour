@@ -1,0 +1,46 @@
+.add-new-list-item-modal {
+  padding: 12px;
+}
+
+.add-new-list-item-modal .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  width: auto;
+}
+
+.add-new-list-item-modal__form {
+  display: grid;
+  row-gap: 16px;
+}
+
+.add-new-list-item-modal__spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.add-new-list-item-modal__input-title {
+  width: 100%;
+}
+
+.add-new-list-item-modal__input-dates {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  column-gap: 8px;
+  row-gap: 16px;
+}
+
+.add-new-list-item-modal__action-buttons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  width: auto;
+  justify-self: flex-end;
+}
+
+.add-new-list-item-modal__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

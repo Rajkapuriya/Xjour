@@ -1,0 +1,50 @@
+.midDetail__groupName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.groupMid__details > .inputDivDetail > input {
+  width: 100%;
+}
+
+.container__midDetails {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container__midLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 16px;
+  justify-content: space-evenly;
+}
+
+.activityData__fieldInputs {
+  margin-left: 16px;
+}
+
+.container__midRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activityData__fieldInputs {
+  margin-top: 16px;
+}
+
+.createActivities__createButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.createActivityLoader {
+  display: flex;
+
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}

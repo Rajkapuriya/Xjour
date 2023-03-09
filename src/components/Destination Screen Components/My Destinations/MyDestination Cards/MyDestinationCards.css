@@ -1,0 +1,114 @@
+.my-destination-cards {
+  display: flex;
+  min-height: 180px;
+  height: max(220px, 25vh);
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.my-destination-cards__detail {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  padding: 16px 20px;
+}
+
+.my-destination-cards__detail button {
+  margin-top: auto;
+  align-self: center;
+  max-width: 240px;
+  width: 100%;
+}
+
+.my-destination-cards__title {
+  color: var(--fontColor);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.my-destination-cards__flag-container {
+}
+
+.my-destination-cards__flag-placeholder {
+  width: 60px;
+  height: 40px;
+  background-color: silver;
+}
+
+.my-destination-cards__flag {
+  width: 60px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.cityTitle {
+  font-size: 20px;
+  font-weight: bolder;
+  word-spacing: 16px !important ;
+  color: #5a6464;
+}
+
+.detail__dataRight {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 160px;
+}
+
+.detail__dataRight > div > .ol-map {
+  width: 160px !important;
+  height: 121px !important;
+  min-height: 160px !important;
+  min-width: 160px !important;
+}
+
+.detail__dataRight {
+}
+.tagItems {
+  color: #22b0ea;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.detail__button {
+  display: flex;
+  justify-content: center;
+}
+
+.my-destination-cards__image-map-container {
+  display: flex;
+  /* flex-direction: column; */
+  flex: 0.6;
+}
+
+.my-destination-cards__map-container {
+  width: 50%;
+  height: 100%;
+}
+
+.my-destination-cards__map-container > div > .ol-map {
+  width: 100% !important;
+  min-width: auto !important;
+  min-height: auto !important;
+  height: 100% !important;
+}
+
+/* .mapSideBox > div > .ol-map > div > div > div > canvas {
+  width: 100%;
+  height: 100%;
+} */
+
+.my-destination-cards__image-container {
+  /* flex: 0.5; */
+  height: 100%;
+  width: 50%;
+}
+
+.my-destination-cards__image {
+  width: 100%;
+  height: 100%;
+  border-end-end-radius: 12px;
+  border-start-end-radius: 12px;
+}

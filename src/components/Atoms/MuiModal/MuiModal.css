@@ -1,0 +1,36 @@
+.modal__header {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--secondaryColor);
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.modal__header-icon {
+  width: 34px;
+  height: 34px;
+}
+
+.modal__header .modal__header-icon * {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.modal__body {
+  margin-top: 20px;
+  position: relative;
+  overflow-y: scroll;
+  height: 80%;
+}
+
+@media screen and (max-width: 500px) {
+  .modal__header-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .modal__heading {
+    font-size: 18px;
+  }
+}

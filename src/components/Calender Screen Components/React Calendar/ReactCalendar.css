@@ -1,0 +1,30 @@
+.reactCalendar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.calendarDay {
+  position: relative;
+  width: calc(100% / 7);
+  height: 100px;
+  display: inline-block;
+  background-color: var(--whiteColor);
+  /* padding: 10px; */
+  margin: 4px 0;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
+  border: 2px solid #eaeaea;
+}
+
+.selected {
+  background-color: var(--primaryColor);
+  color: aliceblue;
+}
+
+.eventDate {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}

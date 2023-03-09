@@ -1,0 +1,40 @@
+* > h5 {
+  font-size: 14px;
+}
+
+.confirmation-mail {
+  height: 100%;
+  padding: 0 20px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.confirmation-mail__heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.confirmation-mail__heading > h2 {
+  letter-spacing: 0.2px;
+  font-size: 24px;
+}
+
+.confirmation-mail__mid {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.confirmation-mail__bottom {
+  margin-top: 5px;
+}
+
+.confirmation-mail__continue {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  padding: 28px 0;
+}

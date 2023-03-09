@@ -1,0 +1,123 @@
+.calenderScreen {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--appBgInside);
+  height: 100vh;
+  overflow: auto;
+}
+
+.calenderScreen__containerMain {
+  overflow-y: auto;
+}
+
+.calenderScreen__headingSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.calenderScreen__heading {
+}
+
+.addEvent__container {
+  position: relative;
+}
+.addEvent__actionButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.addEventcontainer__top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.addEventContainer__topRight {
+  margin-right: 16px;
+}
+
+.container__topSearchBio {
+  display: flex;
+}
+.topSearchLeft {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.addEventTopSearch {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 16px;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+  flex-direction: column;
+}
+.inputTitle {
+  margin-left: 6px;
+}
+
+.createEvent__map {
+  /* width: 450px;
+  height: 350px !important; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.createEvent__map > .mapSideBox {
+  width: 100% !important;
+}
+.createEvent__map > .mapSideBox > div > .ol-map {
+  height: 40vh !important;
+}
+/* .createEvent__map > * {
+  height: 300px !important;
+} */
+
+.react-datetime-picker__wrapper > button {
+  width: auto !important;
+}
+
+.divUnderLineDateLarge {
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin: auto;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+.react-datetime-picker__wrapper {
+  border: none !important;
+}
+.react-datetime-picker__calendar {
+  z-index: 99 !important;
+}
+
+.Container-container css-1kbmavd > .css-1ny1z5p.MainLayout-container {
+  overflow-y: initial !important;
+}
+
+.css-4plepo.MainLayout-container {
+  overflow-y: clip !important;
+}
+
+.css-pzc27e-MuiToolbar-root.Toolbar-toolbar {
+  display: flex;
+  align-self: center;
+}
+
+.css-3nejl.Appointment-clickableAppointment {
+  height: auto !important;
+}

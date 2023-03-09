@@ -1,0 +1,9 @@
+.activitiesSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.activitiesSection > h3{
+    margin-left: 16px;
+    margin-top: 20px;
+}

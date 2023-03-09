@@ -1,0 +1,73 @@
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1;
+}
+
+.messageBox__top {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex: 0.5;
+
+}
+.messageBox__closeButton{
+    display: flex;
+    justify-content: flex-start;
+    margin: 8px;
+}
+
+.closeModal{
+    width: 34px;
+    height: 34px;
+    background-color: #22b0ea !important;
+}
+
+.headTitle{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.closeModal > svg{
+    color: white;
+}
+
+.messageBoxImage {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.top__details{
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 16px;
+    align-items: center;
+}
+.top__details > h5 {
+    margin-right: 16px;
+}
+
+.svgImage {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.closeButton {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.messageBox__bottom {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  justify-content: center;
+  align-items: center;
+}

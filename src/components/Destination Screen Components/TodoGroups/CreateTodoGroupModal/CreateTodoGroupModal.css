@@ -1,0 +1,67 @@
+.create-group-modal {
+  padding: 12px;
+}
+
+.create-group-modal__form {
+  display: grid;
+  row-gap: 16px;
+}
+
+.create-group-modal .create-group-modal__input-title {
+  width: 100%;
+}
+
+.create-group-modal__permissions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 8px;
+  row-gap: 16px;
+}
+
+.create-group-modal__input-permissions-item {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.create-group-modal__creation-date
+  .css-1yq5fb3-MuiButtonBase-root-MuiIconButton-root {
+  width: auto;
+}
+
+.css-9reuh9-MuiPickersArrowSwitcher-root button,
+.css-7kykdr-MuiButtonBase-root-MuiIconButton-root,
+.css-1jm66jt-MuiClockPicker-root button {
+  width: auto;
+}
+
+.create-group-modal__searchable {
+  display: flex;
+  align-items: center;
+}
+
+.create-group-modal__searchable-text {
+  font-weight: 600;
+  color: var(--fontColor);
+}
+
+.create-group-modal__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-group-modal__action-buttons {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  width: auto;
+  justify-self: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+  .create-group-modal__action-buttons {
+    justify-self: unset;
+  }
+}

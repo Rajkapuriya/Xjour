@@ -1,0 +1,24 @@
+.monthComponent{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.monthComponent__calendar{
+    display: flex ;
+    flex-direction: column;
+    flex: 1;
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.calendar__Days{
+    display: flex;
+    /* flex: 0.5; */
+}
+
+.day{
+    display: flex;
+    flex: 0.5;
+    /* border: 1px solid rgb(25, 0, 255); */
+}

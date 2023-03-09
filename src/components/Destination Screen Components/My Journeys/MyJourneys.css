@@ -1,0 +1,74 @@
+.myJourneys {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+
+.myJourneys > h3 {
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+.myJourneys__cards {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  overflow-x: auto;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  /* margin-top: 4px; */
+  height: 90%;
+  /* margin: auto; */
+}
+
+.myDestination__header {
+  display: flex;
+  margin: 0 16px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.modal__containerTop {
+  display: flex;
+  padding: 16px;
+  padding-bottom: 0;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
+}
+
+.modal__containerTop > svg {
+  border: 1px solid #a6a7a9;
+  /* padding: 1px; */
+  color: #a6a7a9;
+  border-radius: 24px;
+  display: flex;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.modal__containerMid {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  /* padding: 16px; */
+  padding-top: 0;
+  align-items: center;
+}
+
+.modal__containerBottom {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  /* bottom: 0; */
+}

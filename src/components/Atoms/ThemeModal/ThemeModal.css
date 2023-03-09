@@ -1,0 +1,21 @@
+.theme-modal__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.theme-modal__title {
+  color: var(--primaryColor);
+}
+
+.theme-modal__close-icon {
+  border: 1px solid var(--primaryColor);
+  padding: 6px;
+  color: var(--primaryColor) !important;
+  border-radius: 24px;
+  display: flex;
+  cursor: pointer;
+}
+
+.theme-modal__main {
+  margin-top: 24px;
+}

@@ -1,0 +1,96 @@
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--whiteColor);
+  height: 100%;
+  width: 250px;
+  min-width: 250px;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  right: 5px;
+}
+
+.right-sidebar__online {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.right-sidebar__Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-sidebar__userslist-map {
+  max-height: 320px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.right-sidebar__userslist-map::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.right-sidebar__offline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.right-sidebar__accordion {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.right-sidebar__accordion .css-o4b71y-MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.right-sidebar__accordion
+  .css-o4b71y-MuiAccordionSummary-content
+  .css-ahj2mt-MuiTypography-root {
+  font-weight: 600;
+}
+
+.right-sidebar__accordion .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+.right-sidebar__accordion
+  .css-1dsxwrh-MuiButtonBase-root-MuiAccordionSummary-root {
+  background-color: white !important;
+  max-height: 50px;
+}
+
+.right-sidebar__expandable-header {
+  min-height: unset !important;
+  padding: 8px 16px !important;
+  background-color: white !important;
+}
+
+.right-sidebar__accordion-details {
+  padding: 0 !important;
+}
+
+@media screen and (min-width: 1800px) {
+  .right-sidebar {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .right-sidebar {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .right-sidebar {
+    display: none;
+  }
+}

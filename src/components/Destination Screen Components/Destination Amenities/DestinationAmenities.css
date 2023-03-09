@@ -1,0 +1,38 @@
+.destination-amenities {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 20px 60px 20px;
+  height: calc(100vh - 45px);
+  overflow: auto;
+}
+
+.destination-amenities__heading {
+  font-size: 24px;
+  color: var(--fontColor);
+}
+
+.destination-amenities__amenities-setter {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.destination-amenities__map-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.destination-amenities__map-container .ol-map {
+  height: 80vh;
+}
+
+.destination-amenities__amenities-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

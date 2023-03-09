@@ -1,0 +1,362 @@
+.todo-groups {
+  padding: 16px 16px 32px 16px;
+  background-color: var(--appBgInside);
+  height: calc(100vh - 78px);
+  overflow-y: scroll;
+}
+
+.todo-groups__header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.todo-groups__control-buttons {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 12px;
+  width: min(100%, 250px);
+  justify-self: flex-end;
+  justify-items: flex-end;
+}
+
+.todo-groups__body {
+  margin-top: 24px;
+  padding-bottom: 48px;
+}
+
+.todo-groups__cards {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  column-gap: 8px;
+  row-gap: 38px;
+  justify-items: center;
+}
+
+.todo-groups__error-container {
+  display: grid;
+  row-gap: 12px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.todo-groups__error {
+  color: var(--generalError);
+}
+
+.todo-groups__todo-card {
+  width: clamp(300px, 100%, 400px);
+  position: relative;
+}
+
+.todo-card__header {
+  display: grid;
+  row-gap: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--secondaryColor);
+}
+
+.todo-card__header-upper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 8px;
+}
+
+.todo-card__header-upper-left {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.todo-card__owner {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.todo-groups .todo-card__owner-icon {
+  width: auto;
+  height: 24px;
+  border-radius: 100%;
+}
+
+.todo-card__owner-name {
+  color: var(--primaryColor);
+  font-size: 12px;
+}
+
+.todo-card__name {
+  color: var(--fontColor);
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-all;
+}
+
+.todo-card__header-upper-right {
+  display: flex;
+  column-gap: 4px;
+}
+
+.todo-card__header-upper-right .css-i4bv87-MuiSvgIcon-root {
+  cursor: pointer;
+  color: var(--fontColor);
+}
+
+.todo-card__controls {
+  display: grid;
+  column-gap: 8px;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.todo-card__controls-button {
+  background-color: var(--primaryColor) !important;
+  font-size: 10px !important;
+  width: max-content;
+  height: auto;
+  color: white !important;
+}
+
+.todo-card__controls-button .css-i4bv87-MuiSvgIcon-root {
+  color: white;
+}
+
+.todo-card__controls
+  .css-sghohy-MuiButtonBase-root-MuiButton-root.Mui-disabled {
+  background-color: var(--primaryDisabledColor) !important;
+}
+
+.todo-card__body {
+  margin-top: 12px;
+}
+
+.todo-card__todo-description {
+  margin: 0;
+  word-break: break-all;
+}
+
+.todo-card__members {
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.todo-card__members-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--secondaryColor);
+}
+
+.todo-card__members-heading {
+  margin: 0;
+  color: var(--fontColor);
+  font-weight: 600;
+}
+
+.todo-card__add-new-member-button {
+  height: 24px;
+  width: 24px;
+  background-color: var(--primaryColor);
+}
+
+.todo-groups .todo-card__add-new-member-icon {
+  color: var(--whiteColor);
+  height: 20px;
+  width: 20px;
+}
+
+.todo-card__members-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 55px);
+  place-items: center;
+  row-gap: 20px;
+  padding-top: 12px;
+  max-height: 120px;
+  overflow-y: scroll;
+  width: 100%;
+  padding-right: 17px;
+}
+
+.todo-card__member {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+}
+
+.todo-card__member-icon {
+  height: 50px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.todo-card__add-member {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+}
+
+.todo-card__add-member-icon {
+  height: 34px;
+  width: 34px;
+  cursor: pointer;
+}
+
+.todo-card__todo-items {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.todo-card__todo-items-header {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--secondaryColor);
+  display: flex;
+  justify-content: space-between;
+  row-gap: 8px;
+}
+
+.todo-card__todo-items-heading {
+  margin: 0;
+  color: var(--fontColor);
+  font-weight: 600;
+}
+
+.todo-card__todo-items-controls {
+  display: flex;
+  column-gap: 8px;
+}
+
+.todo-groups .todo-card__todo-items-controls-icon {
+  color: var(--fontColor);
+  cursor: pointer;
+}
+
+.todo-card__sort-todoitem-button,
+.todo-card__copy-todoitem-button {
+  width: max-content;
+  height: max-content;
+  font-size: 12px !important;
+  background-color: var(--primaryColor) !important;
+  padding: 4px 12px !important;
+  color: white !important;
+}
+
+.todo-card__sort-todoitem-button:disabled,
+.todo-card__copy-todoitem-button:disabled {
+  background-color: var(--primaryDisabledColor) !important;
+}
+
+.todo-card__sort-todoitem-icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  color: var(--fontColor) !important;
+}
+.todo-card__sort-todoitem-icon--disabled {
+  color: hsl(0, 0%, 70%) !important;
+  cursor: default;
+}
+
+.todo-card__copy-todoitem-icon {
+  height: 24px !important;
+  width: 24px !important;
+  cursor: pointer;
+  color: var(--fontColor) !important;
+}
+.todo-card__copy-todoitem-icon--disabled {
+  color: hsl(0, 0%, 70%) !important;
+  cursor: default;
+}
+
+.todo-card__todo-items-body {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 12px;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+}
+
+.todo-card__add-new-list-button {
+  background-color: var(--primaryColor);
+  border-radius: 100%;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  cursor: pointer;
+  border: none;
+}
+
+.todo-card__add-new-list-button:disabled {
+  cursor: default;
+  background-color: var(--primaryDisabledColor);
+}
+
+.todo-groups .todo-card__add-new-list-icon {
+  color: var(--whiteColor);
+}
+
+.todo-groups__no-todos {
+  text-align: center;
+  color: var(--primaryColor);
+}
+
+.sort-todo-items-dropdown {
+  padding: 20px 16px 28px 16px;
+}
+
+.sort-todo-items-dropdown__filters {
+  display: grid;
+  row-gap: 16px;
+}
+
+.sort-todo-items-dropdown__filter {
+  display: grid;
+  row-gap: 4px;
+}
+
+.sort-todo-items-dropdown__filter-heading {
+  color: var(--fontColor);
+  margin: 0;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.sort-todo-items-dropdown__filter-select {
+  min-width: 180px !important;
+}
+
+.sort-todo-items-dropdown__filter-select
+  .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 8px 12px;
+}
+.sort-todo-items-dropdown__filter-select
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.sort-todo-items-dropdown__filter-select
+  .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  display: none;
+}
+
+.sort-todo-items-dropdown__filter-select
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.sort-todo-items-dropdown__filter-select
+  .css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover {
+  border-color: black;
+}
+
+.sort-todo-items-dropdown__action-buttons {
+  margin-top: 12px;
+  display: grid;
+  row-gap: 8px;
+}

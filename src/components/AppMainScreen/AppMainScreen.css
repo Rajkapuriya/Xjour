@@ -1,0 +1,28 @@
+.app-main-screen {
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
+  height: 100vh;
+  overflow: hidden;
+  flex: 1;
+}
+
+.app-main-screen__body {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+.app-main-screen__content {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 16px;
+  max-width: 1800px;
+}
+
+@media screen and (min-width: 1800px) {
+  .app-main-screen__content {
+    max-width: 2400px;
+  }
+}

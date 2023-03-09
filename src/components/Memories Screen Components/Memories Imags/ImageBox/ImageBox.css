@@ -1,0 +1,20 @@
+.imageBox {
+  display: flex;
+  flex-direction: column;
+}
+.imageBox__body {
+  display: flex;
+flex-wrap: wrap;
+  flex: 1;
+}
+.imageBox__image {
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.imageBox > h5 {
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 10px;
+}

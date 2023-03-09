@@ -1,0 +1,75 @@
+.cropper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cropper__body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* border-top-left-radius: 12px;
+    border-start-start-radius: 12px; */
+  max-width: 550px;
+  min-width: 40vw;
+  max-height: 70vh;
+  margin: auto;
+  /* margin-top: 10vh; */
+}
+
+.cropper__body > img {
+  max-width: 500px;
+  margin: auto;
+  object-fit: scale-down !important;
+}
+.cropper__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e4e4e4;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  /* position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%; */
+}
+.closeDoneButtons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.closeDoneButtons > button {
+  width: auto !important;
+}
+
+.closeDoneButtons > .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  width: 40px;
+  height: 40px;
+}
+.closeDoneButtons > button > svg {
+  color: white !important;
+}
+
+.closeButton {
+  background-color: #ee378a !important;
+  opacity: 0.5;
+}
+.closeButton:hover {
+  opacity: 1;
+}
+.doneButton {
+  background-color: #4bb543 !important;
+  opacity: 0.5;
+}
+.doneButton:hover {
+  opacity: 1;
+}
+
+.ReactCrop > div > img {
+  width: 100%;
+  height: 80%;
+  max-height: 500px;
+}

@@ -1,0 +1,32 @@
+.weekComponent__container {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.weekComponent__hour {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+}
+
+.weekCalendar__tab {
+  display: flex;
+  flex: 0.9;
+}
+
+.weekDay {
+  position: relative;
+  width: calc(100% / 7);
+  /* height: 100px; */
+  display: inline-block;
+  /* padding: 10px; */
+  margin: 4px 0;
+  box-sizing: border-box;
+  z-index: 1;
+  text-align: center;
+}
+
+.hours {
+  padding: 6px;
+  border: 1px solid grey;
+}

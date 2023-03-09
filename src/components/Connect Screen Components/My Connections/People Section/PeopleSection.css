@@ -1,0 +1,40 @@
+.peopleSection {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center; */
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.peopleSection__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.peopleSection__search {
+  display: flex;
+  width: 90%;
+}
+
+.peopleSection__search > div {
+  width: 100%;
+}
+.peopleSection__search > div > input {
+  width: 100%;
+}
+
+.peopleSection__head {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.noFriendText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}

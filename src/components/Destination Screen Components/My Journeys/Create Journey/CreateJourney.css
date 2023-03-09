@@ -1,0 +1,60 @@
+.createJourney {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+}
+
+.createJourney__mainScreen {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.createJourney__mainScreen > div > .ol-map {
+  height: 80vh !important;
+}
+/* .createJourney__mainScreen > div > .ol-map > div > div > div > canvas {
+  height: 100% !important;
+} */
+.createJourney__search {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  opacity: 0.9;
+  overflow-y: auto;
+  max-height: 45vh;
+  overflow-x: hidden;
+  padding: 8px;
+}
+
+.createJourney__actionButtons {
+  display: flex;
+  justify-content: flex-end;
+
+  cursor: pointer;
+}
+.createJourney__addItem {
+  background-color: #5d7298;
+  padding: 12px;
+  /* border-radius: 12px; */
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.createJourney__addItem > svg {
+  color: white;
+  font-size: 24px;
+}
+
+.createJourney__bottom {
+  display: flex;
+  height: auto;
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}

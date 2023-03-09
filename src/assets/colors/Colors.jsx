@@ -1,0 +1,16 @@
+export const passwordError = "#ee378a";
+export const emailError = "#ecba02";
+export const primaryColor = "#22b0ea";
+export const secondaryColor = "#c6ccc9";
+export const appleColor = "#777777";
+export const googleColor = "#fcfcfd";
+export const inactiveClass = "#a6a7a9";
+export const userChatBg = "#e2f7fe";
+export const appBgFront = "#ffffff";
+export const appBgInside = "#f8f8f8";
+export const appBgOutside = "#e4e4e4";
+export const whiteColor = "#ffffff";
+export const greyColor = "#808080";
+export const blackColor = "#181818";
+export const fontColor = "#5a6464";
+export const secondaryButton = "#707070";

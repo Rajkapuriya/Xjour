@@ -1,0 +1,11 @@
+.discover {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  height: 100%;
+}
+
+.discover__heading {
+  margin-top: 12px;
+  margin-left: 16px;
+}

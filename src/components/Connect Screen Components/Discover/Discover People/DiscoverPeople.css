@@ -1,0 +1,29 @@
+.discoverPeople {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  margin-top: 16px;
+}
+
+.discoverPeople__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.discoverPeople__search {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+}
+
+.discoverInputDiv {
+  width: 100%;
+  margin: auto;
+}

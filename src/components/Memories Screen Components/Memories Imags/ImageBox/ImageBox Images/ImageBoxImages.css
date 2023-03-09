@@ -1,0 +1,124 @@
+.imageBoxImages {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.imageBoxImages__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.imageBoxImages__image {
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  transition: 0.4s;
+}
+.imageBoxImages__image:hover {
+  transform: scale(1.1);
+}
+
+.css-3hcm5q > img {
+  object-fit: contain;
+  display: flex;
+  width: 100%;
+  max-height: 1600px !important;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.css-3hcm5q {
+  /* border: 2px solid white; */
+  border-radius: 8px;
+  max-height: 80vh !important;
+  min-width: calc(50%);
+}
+
+.leftRight__buttons {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.leftButton {
+  /* background-color: rgba(255, 255, 255, 0.4);; */
+  /* background-color: transparent; */
+}
+
+.leftButton > button {
+  background-color: #22b0ea;
+  width: 50px;
+  height: 50px;
+}
+
+.leftButton > button > svg {
+  width: 50px !important;
+  height: 50px !important;
+  color: white;
+}
+.leftButton > button:hover {
+  background-color: white;
+}
+.leftButton > button > svg:hover {
+  color: #22b0ea;
+}
+
+.rightButton {
+  /* background-color: rgba(255, 255, 255, 0.4);; */
+  position: relative;
+}
+.rightButton > button {
+  background-color: #22b0ea;
+  width: 50px;
+  height: 50px;
+}
+
+.rightButton > button > svg {
+  width: 50px !important;
+  height: 50px !important;
+  color: white;
+}
+.rightButton > button:hover {
+  background-color: white;
+}
+.rightButton > button > svg:hover {
+  color: #22b0ea;
+}
+
+.ImageBoxImages__loader {
+  width: 130px;
+  height: 120px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 2px;
+  /* border: 1px solid darkgray; */
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ImageBoxImages__loader > svg {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: contain;
+}
+.imageDialog{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.imageDialog_fields{
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+}
+.imageDialog_fields_title{
+  font-weight: 600;
+}

@@ -1,0 +1,217 @@
+.selectedGroupComponent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 50vw;
+}
+
+.selectedGroupComponent__details {
+  width: 100%;
+  height: 100%;
+}
+
+/* .group__container {
+  width: 100%;
+  height: 100%;
+}
+
+.groupContainer__mid{
+  width: 100%;
+  height: 100%;
+}
+.groupMid__detail{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} */
+
+.selectedGroup__flagAndMember {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.selectedGroup__bio {
+  display: flex;
+  justify-content: space-between;
+}
+.selectedGroup__bioLeft {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.selectedGroup__bioRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 40%;
+}
+
+.selectedGroup__bioRight > .groupMid__flagDiv > .groupMid__flagDiv {
+  align-items: center;
+}
+.selectedGroup__bioRight > .selectedGroupComponent__image {
+  margin-left: 10%;
+}
+.selectedGroup__bioRight > .groupMid__flagDiv {
+  /* margin-top: 6px; */
+  width: auto !important;
+}
+
+.activitySec {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+
+  /* height: 100%; */
+}
+
+.selectedGroupComponent__countrySvg {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.SelectedGroup__bottom > .addMenuOptions {
+  display: flex;
+  justify-content: space-between;
+  /* position: absolute;
+  bottom: 0; */
+  width: 100%;
+  height: auto;
+  min-height: 140px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 0;
+  /* border-end-start-radius: 8px;
+  border-end-end-radius: 8px; */
+  z-index: 99;
+}
+
+.selectedGroupComponent__image {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.selectedGroupImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 99px;
+  border: 1px solid #707070;
+}
+
+.selectedGroupComponent__flagDropDown {
+  display: flex;
+  /* width: 80%; */
+  height: 40px;
+}
+.groupCountryFlagSvg {
+  width: 64px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.SelectedGroup__bottom
+  > .addMenuOptions
+  > .addMenuOptions__svg
+  > .addMenuOptions__svgIcon
+  > svg {
+  border: 1px solid #a6a7a9;
+  padding: 6px;
+  color: #8c8c8d;
+  border-radius: 24px;
+  display: flex;
+  /* font-size: 1.5rem; */
+  margin: 2px 0;
+  background-color: white;
+}
+
+.SelectedGroup__bottom
+  > .addMenuOptions
+  > .addMenuOptions__svg
+  > .addMenuOptions__svgIcon
+  > p {
+  /* font-size: 12px; */
+  /* font-weight: 600; */
+}
+
+.SelectedGroup__bottom
+  > .addMenuOptions
+  > .addMenuOptions__component
+  > .addMediaDiv
+  > .addMedia
+  > .addMenu__closeButton {
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  height: 160px;
+  /* z-index: 99; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.SelectedGroup__bottom
+  > .addMenuOptions
+  > .addMenuOptions__component
+  > .addMediaDiv
+  > .addMedia
+  > .addMenu__media
+  > .imageBoxImages
+  > img {
+  width: 140px;
+  height: 160px;
+  object-fit: cover;
+  margin: 6px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.groupMid__h5 {
+  margin-left: 6px;
+}
+
+.selectedGroupComponent__details > .groupMid__details > .inputDivDetail {
+  width: 30vw;
+}
+
+.memebersIconButton {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  background-color: var(--primaryColor);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 8px;
+}
+.memebersIconButton > button {
+  width: 100%;
+  height: 100%;
+}
+
+.memebersIconButton > button > svg {
+  color: var(--whiteColor);
+}
+
+.selectedGroup__flag {
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  /* box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.4); */
+  /* box-shadow: inset 0 0 10px #000000; */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* border: 1px solid #707070; */
+  /* border-radius: 50%; */
+  justify-content: center;
+  align-items: center;
+  /* width: 60px;
+  height: 60px; */
+  /* padding: 6px; */
+}

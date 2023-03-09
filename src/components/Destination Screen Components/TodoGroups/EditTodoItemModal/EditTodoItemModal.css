@@ -1,0 +1,24 @@
+.edit-todo-item-modal {
+  padding: 12px;
+}
+
+.edit-todo-item-modal__form {
+  display: grid;
+  row-gap: 16px;
+}
+
+.edit-todo-item-modal__loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.edit-todo-item-modal__action-buttons {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  width: auto;
+  justify-self: flex-end;
+}

@@ -1,0 +1,12 @@
+.destinationEmergency__mainScreen {
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+.destinationEmergency__mainScreen > div > .ol-map {
+  height: 80vh !important;
+}
+/* .destinationEmergency__mainScreen > div > .ol-map > div > div > div > canvas {
+  height: 100% !important;
+} */

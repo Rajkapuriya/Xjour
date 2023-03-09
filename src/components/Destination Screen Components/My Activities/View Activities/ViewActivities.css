@@ -1,0 +1,99 @@
+.viewActivity {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+}
+
+.viewActivity__container {
+  margin: 10px;
+  height: 100%;
+  /* width: 100%; */
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* border: 1px solid green; */
+}
+
+.midDetail__activities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.midDetail__activities__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  flex: 1;
+}
+.midDetail__activities__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .midDetail_activitiesleft{
+  
+} */
+.viewActivities__activityDetails {
+  display: flex;
+  justify-content: space-between;
+}
+.viewActivities__activityDetails > .groupMid__details {
+  flex: 0.7;
+}
+
+.activities__containerImage {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.activityNameDiv {
+  margin-top: 20px;
+}
+
+.activityNameDiv > h5 {
+  margin-left: 8px;
+}
+.activityNameDiv > .inputDivDetail {
+  width: 90% !important;
+}
+.activities__fieldInputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.activityImage {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 1px solid #707070;
+}
+
+.activities__countryFlagSvg {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.myActivities__actionButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.midDetail_activities_right {
+  margin-right: 8px;
+}

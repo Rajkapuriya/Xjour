@@ -1,0 +1,13 @@
+.addConnection {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+}
+
+.addConnection__connections {
+  display: flex;
+  /* cursor: pointer; */
+}

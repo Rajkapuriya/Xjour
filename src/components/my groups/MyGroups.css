@@ -1,0 +1,96 @@
+.my-groups {
+}
+
+.my-groups__accordion {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.my-groups__accordion .css-o4b71y-MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.my-groups__accordion
+  .css-o4b71y-MuiAccordionSummary-content
+  .css-ahj2mt-MuiTypography-root {
+  font-weight: 600;
+}
+
+.my-groups__accordion .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+.my-groups__accordion .css-1dsxwrh-MuiButtonBase-root-MuiAccordionSummary-root {
+  background-color: white !important;
+  max-height: 50px;
+}
+
+.my-groups__expandable-header {
+  min-height: unset !important;
+  padding: 8px 16px !important;
+  background-color: white !important;
+}
+
+.my-groups__accordion-details {
+  padding: 0 !important;
+}
+
+.my-groups__loading-container {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  background-color: var(--appBgInside);
+}
+
+.my-groups__shimmer-container {
+  display: grid;
+  row-gap: 8px;
+  padding: 16px 0;
+  overflow-y: scroll;
+  width: 100%;
+  place-items: center;
+}
+
+.my-groups__shimmer {
+  border-radius: 6px;
+}
+
+.my-groups__empty {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.my-groups .infinite-scroll-component__outerdiv {
+}
+
+.my-groups__infinite-scroll {
+  background-color: #f8f8f8;
+  display: grid;
+  row-gap: 8px;
+}
+.my-groups__infinite-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.my-groups__infinite-scroll::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+}
+
+.my-groups__scroll-more-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.my-groups__group-lists {
+  height: max(65px, 6vh);
+  display: flex;
+}
+
+.my-groups__group-lists:nth-of-type(1) {
+  padding-top: 12px;
+}
+.my-groups__group-lists:last-child {
+  padding-bottom: 12px;
+}

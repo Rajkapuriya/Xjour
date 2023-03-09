@@ -1,0 +1,9 @@
+.linkedDestinations{
+    display: flex;
+    flex-direction: column;
+}
+
+.linkedDestinations > h3{
+    margin-left: 16px;
+    margin-top: 20px;
+}
